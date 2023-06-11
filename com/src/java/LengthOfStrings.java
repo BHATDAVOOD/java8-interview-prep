@@ -8,7 +8,7 @@ public class LengthOfStrings {
     public static void main(String[] args) {
 
         /*
-        * Implement a method that takes a list of strings and returns the count of strings that have a length greater than "N" using the Stream API.
+        * Implement a method that takes a list of strings and returns the List of strings that have a length greater than "N" using the Stream API.
         * */
 
         List<String> fruits =
