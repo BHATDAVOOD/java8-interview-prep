@@ -11,7 +11,7 @@ This repository provides solutions to frequently asked Java coding questions in 
 
 
 ## Questions
-1. Implement a method that takes a list of strings and returns the List of strings that have a length greater than 5 using the Stream API.
+1. Implement a method that takes a list of strings and returns the List of strings and count of Strings that have a length greater than 5 using the Stream API.
 
 ## Usage
 
