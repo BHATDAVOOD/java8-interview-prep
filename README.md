@@ -13,7 +13,7 @@ This repository provides solutions to frequently asked Java coding questions in 
 ## Questions
 1. Implement a method that takes a list of strings and returns the List of strings and count of Strings that have a length greater than 5 using the Stream API.
 2. Write a method to concatenate all the strings in a list using the reduce() method in the Stream API.
-3. Given a list of integers, write a method to find the product of all the numbers using the Stream API.
+3. Given a list of integers, write a method to find the Sum of all the numbers using the Stream API.
 
 ## Usage
 

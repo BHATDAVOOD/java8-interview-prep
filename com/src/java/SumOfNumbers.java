@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 public class SumOfNumbers {
 
     /*
-    * Given a list of integers, write a method to find the product of all the numbers using the Stream API.
+    * Given a list of integers, write a method to find the Sum of all the numbers using the Stream API.
     * */
 
     public static void main(String[] args) {
