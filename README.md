@@ -16,6 +16,7 @@ This repository provides solutions to frequently asked Java coding questions in 
 3. Given a list of integers, write a method to find the Sum of all the numbers using the Stream API.
 4. Given a list of integers, write a method to find the Product of all the numbers using the Stream API.
 5. Implement a method that takes a list of strings and returns a new list containing only the unique strings in (a) alphabetical order & (b) descending order using the Stream API.
+6. Write a lambda expression to filter out all strings that are palindromes from a list of strings.
 
 ## Usage
 
