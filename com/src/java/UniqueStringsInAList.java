@@ -1,4 +1,4 @@
-package src.java.model;
+package src.java;
 
 import java.util.Arrays;
 import java.util.List;
