@@ -30,7 +30,7 @@ public class LengthOfStrings {
 
     }
 
-    // Returns List of Fruits with length greater than or equal to 7
+    // Returns List of Fruits with length greater than or equal to length
     public static List<String> fruitsWithNLength(List<String> fruits, int length){
 
         return fruits.stream()
@@ -38,7 +38,7 @@ public class LengthOfStrings {
                 .collect(Collectors.toList());
     }
 
-    // Returns Count of Fruits with length greater than or equal to 7
+    // Returns Count of Fruits with length greater than or equal to length
     public static long countOfFruitsWithNLength(List<String> fruits, int length){
         return fruits.stream()
                 .filter(fruit -> fruit.length() >= length)
