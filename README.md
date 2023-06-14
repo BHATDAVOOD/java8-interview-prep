@@ -18,6 +18,7 @@ This repository provides solutions to frequently asked Java coding questions in 
 5. Implement a method that takes a list of strings and returns a new list containing only the unique strings in (a) alphabetical order & (b) descending order using the Stream API.
 6. Write a lambda expression to filter out all strings that are palindromes from a list of strings.
 7. Given a list of integers, write a method to find the sum of all even numbers using the Stream API.
+8. Write a lambda expression to sort a list of strings in descending order of length.
 
 ## Usage
 
