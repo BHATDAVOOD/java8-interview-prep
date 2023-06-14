@@ -2,6 +2,7 @@ package src.java;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 import java.util.stream.Collectors;
 
 public class LengthOfStrings {
@@ -14,27 +15,33 @@ public class LengthOfStrings {
          * using the Stream API.
         * */
 
+        int length;
+        System.out.println("Enter the Length of the String....");
+        try (Scanner sc = new Scanner(System.in)) {
+            length = sc.nextInt();
+        }
+
         List<String> fruits =
                 Arrays.asList("apple","orange","grapes","papaya","pineapple","pomegranate");
 
-        System.out.println(fruitsWithNLength(fruits));
+        System.out.println(fruitsWithNLength(fruits,length));
         System.out.println("---------------------------------------");
-        System.out.println("Number of Fruits with Length greater than or equal to 7 : "+ countOfFruitsWithNLength(fruits));
+        System.out.println("Number of Fruits with Length greater than or equal to " + length + " : "+ countOfFruitsWithNLength(fruits,length));
 
     }
 
     // Returns List of Fruits with length greater than or equal to 7
-    public static List<String> fruitsWithNLength(List<String> fruits){
+    public static List<String> fruitsWithNLength(List<String> fruits, int length){
 
         return fruits.stream()
-                .filter(fruit -> fruit.length() >= 7)
+                .filter(fruit -> fruit.length() >= length)
                 .collect(Collectors.toList());
     }
 
     // Returns Count of Fruits with length greater than or equal to 7
-    public static long countOfFruitsWithNLength(List<String> fruits){
+    public static long countOfFruitsWithNLength(List<String> fruits, int length){
         return fruits.stream()
-                .filter(fruit -> fruit.length() >= 7)
+                .filter(fruit -> fruit.length() >= length)
                 .count();
     }
 }
