@@ -20,6 +20,7 @@ This repository provides solutions to frequently asked Java coding questions in 
 7. Given a list of integers, write a method to find the sum of all even numbers using the Stream API.
 8. Write a lambda expression to sort a list of strings in descending order of length.
 9. Implement a method that takes a list of integers and returns a new list containing the squared values of all the numbers using the map() method in the Stream API.
+10. Write a method to find Nth Highest Salary from a List using Stream API.
 
 ## Usage
 
