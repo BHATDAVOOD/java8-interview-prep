@@ -21,6 +21,7 @@ This repository provides solutions to frequently asked Java coding questions in 
 8. Write a lambda expression to sort a list of strings in descending order of length.
 9. Implement a method that takes a list of integers and returns a new list containing the squared values of all the numbers using the map() method in the Stream API.
 10. Write a method to find Nth Highest Salary from a List using Stream API.
+11. Given a list of names, write a method to find the length of the longest name using the Stream API.
 
 ## Usage
 
