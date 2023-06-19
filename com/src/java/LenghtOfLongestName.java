@@ -8,7 +8,7 @@ public class LenghtOfLongestName {
 
     public static void main(String[] args) {
 
-        List<String> names = Arrays.asList("davood","ahmad","bhat","shugufta");
+        List<String> names = Arrays.asList("davood","ahmad","bhat","gadiseer");
         System.out.println(longestNameLength(names));
     }
 
