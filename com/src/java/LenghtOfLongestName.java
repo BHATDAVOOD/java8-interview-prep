@@ -6,6 +6,10 @@ import java.util.Optional;
 
 public class LenghtOfLongestName {
 
+    /*
+    * Given a list of names, write a method to find the length of the longest name using the Stream API.
+    * */
+
     public static void main(String[] args) {
 
         List<String> names = Arrays.asList("davood","ahmad","bhat","gadiseer");
