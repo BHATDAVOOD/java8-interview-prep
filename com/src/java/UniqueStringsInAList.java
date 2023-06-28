@@ -9,7 +9,7 @@ public class UniqueStringsInAList {
     * Implement a method that takes a list of strings and returns a new list containing only the unique strings in
     * (a) Ascending order
     * (b) Descending Order
-    * using the Stream API.
+    * using the Stream API of Java 8.
     * */
 
     public static void main(String[] args) {
